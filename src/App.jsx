@@ -5,7 +5,7 @@ import Service from "./pages/Service";
 import Gallery from "./pages/Gallery";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
-import Layout from "./components/Layout";
+import Layout from "./layouts/Layout";
 
 
 function App() {

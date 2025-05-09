@@ -1,17 +1,33 @@
+import Customers from "../components/Customers";
+import Haircut from "../components/Haircut"
+import Services from "../components/Services"
+import ServiceImg from "../images/gallery/instra2.jpg"
+import { FaStar } from "react-icons/fa";
 
-
-function Service() {
+const Service = () => {
   return (
-    <div>
-      <h1>Our Services</h1>
-      <p>We offer a variety of services to help you on your journey.</p>
-      <ul>
-        <li>Guided Tours</li>
-        <li>Adventure Packages</li>
-        <li>Custom Itineraries</li>
-      </ul>
-      <p>Contact us for more information!</p>
-    </div>
+    <section className=''>
+          <div className='flex grow mb-20'>
+            <div className='bg-primary px-10 justify-center items-center'> 
+              <h1 className='text-white p-3 pt-40 px-47 text-center text-5xl font-chivo font-extrabold items-center'>Services</h1>
+            </div>
+          <div className='flex grow cursor-default'>
+            <img src={ServiceImg} alt="About Picture" className='object-cover w-full h-110 font-chivo'/>
+          </div>
+          </div>
+    
+
+    <Services/>
+
+    <Haircut/>
+
+    <Customers icon={<FaStar className="text-secondary"/>}/>
+
+
+
+   </section>
+
+
   )
 }
 
