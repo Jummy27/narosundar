@@ -7,10 +7,19 @@ import Customer3 from "../images/gallery/customer3.png";
 const Customers = ({icon}) => {
   return (
     <section className="mb-40">
-        <h1 className="text-4xl text-center uppercase font-extrabold text-primary mt-30 mb-15">customers say about us</h1>
-        <div className="flex ml-7 mr-15">
-            <div className="ml-10 border-gray-200 border-1 p-10 pb-30">
-            <span className="block mb-2">{icon}</span>
+       <div className="mt-30 items-center">
+        <div className='border-3 border-secondary w-13 mt-10 ml-160 '></div>
+        <h1 className="text-4xl text-center uppercase font-extrabold text-primary mt-8 mb-15">customers say about us</h1>
+       </div>
+        <div className="lg:grid-cols-3 ml-10 mr-15 md:grid">
+            <div className=" border-gray-200 border-1 p-10 pb-30">
+            <div className="flex gap-2">
+              <span>{icon}</span>
+            <span>{icon}</span>
+            <span>{icon}</span>
+            <span>{icon}</span>
+            <span>{icon}</span>
+            </div>
             <h4 className="text-2xl my-7">"Consectetur adipiscing elit, sed do eiusmod tempor dunt ulter labore et dolore magna.</h4>
            <div className="flex">
             <img src={Customer1} alt="customer1-image"/>
@@ -20,7 +29,13 @@ const Customers = ({icon}) => {
             </div>
 
             <div className="border-gray-200 border-1 p-10 pb-30">
-            <span className="block mb-2">{icon}</span>
+            <div className="flex gap-2">
+              <span>{icon}</span>
+            <span>{icon}</span>
+            <span>{icon}</span>
+            <span>{icon}</span>
+            <span>{icon}</span>
+            </div>
             <h4 className="text-2xl my-7">"Consectetur adipiscing elit, sed do eiusmod tempor dunt ulter labore et dolore magna.</h4>
             <div className="flex">
             <img src={Customer2} alt="customer1-image"/>
@@ -29,7 +44,13 @@ const Customers = ({icon}) => {
             </div>
 
             <div className="border-gray-200 border-1 p-10 pb-30">
-            <span className="block mb-2">{icon}</span>
+            <div className="flex gap-2">
+              <span>{icon}</span>
+            <span>{icon}</span>
+            <span>{icon}</span>
+            <span>{icon}</span>
+            <span>{icon}</span>
+            </div>
             <h4 className="text-2xl my-7">"Consectetur adipiscing elit, sed do eiusmod tempor dunt ulter labore et dolore magna.</h4>
             <div className="flex">
             <img src={Customer3} alt="customer1-image"/>

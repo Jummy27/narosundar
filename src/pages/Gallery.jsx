@@ -1,3 +1,4 @@
+
 import Hero3 from "../images/gallery/hero3.jpg";
 import instra1 from "../images/gallery/instra1.jpg";
 import instra2 from "../images/gallery/instra2.jpg";
@@ -11,7 +12,7 @@ const Gallery=() => {
     <section>
       <div className='flex grow'>
                   <div className='bg-primary px-10 justify-center items-center'> 
-                    <h1 className='text-white p-3 pt-40 px-47 text-center text-5xl font-chivo font-extrabold items-center'>Services</h1>
+                    <h1 className='text-white p-3 pt-40 px-47 text-center text-5xl font-chivo font-extrabold items-center'>Gallery</h1>
                   </div>
                 <div className='flex grow cursor-default'>
                   <img src={Hero3} alt="Gallery Picture" className='object-cover w-full h-110 font-chivo'/>
@@ -29,7 +30,11 @@ const Gallery=() => {
                   <img src={instra6} alt="Gallery Img6" />
 
                 </div>
+
+                
     </section>
+
+
 
 
   )

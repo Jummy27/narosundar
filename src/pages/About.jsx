@@ -31,7 +31,7 @@ function About() {
 
      <Haircut/>
 
-    <div className='flex grow h-57 w-120'>
+    <div className='md:grid grid-cols-2 lg:flex grow h-57 w-120'>
       <img src={instra5} alt="instra5-img" />
       <img src={instra1} alt="instra1-img" />
       <img src={instra2} alt="instra2-img" />

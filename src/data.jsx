@@ -5,8 +5,9 @@ export const pageLinks = [
     {id: 2, name: "about", path: "/about"},
     {id: 3, name: "service", path: "/service"},
     {id: 4, name: "gallery", path: "/gallery"},
-    {id: 5, name: "blog", path: "/blog"},
+    {id: 5, name: "blog"},
     {id: 6, name: "contact", path: "/contact"},
+   
 ];
 
 export const story = [
@@ -25,3 +26,8 @@ export const services = [
     {id: 1, text: 'Trim your hair', text2: 'From', price: 40},
 ]
 
+export const blogLinks = [
+    {id: 1, name: "blog", path: "/blog"},
+    {id: 2, name: "blog details", path: "/blogdetails"},
+    {id: 3, name: "elements", path: "/elements"},
+]

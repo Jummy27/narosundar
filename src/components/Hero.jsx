@@ -5,9 +5,9 @@ import scissor from "../images/icons/scissors.svg"
 const Hero = () => {
   return (
 
-    <section className="md:flex md:h-[500px]">
+    <section className="md:flex md:h-[600px]">
         <div className="md:flex md:items-center md:justify-end w-full
-        md:w-1/2 lg:w-2/5 md:pl-24 pl-8 pr-0 bg-primary text-white
+        md:w-1/2 lg:w-2/5 md:pl-24 pr-0  bg-primary text-white
         py-8 md:py-0">
             <div className="flex flex-col justify-center items-start pr-20">
                 <img src={scissor} alt="scissor" />
@@ -22,9 +22,9 @@ const Hero = () => {
             </div>
         </div>
 
-        <div className="hidden md:block md:w-1/2 lg:w-3/5 md:h-[500px] ">
+        <div className="hidden md:block md:w-1/2 lg:w-3/5 md:h-[600px] ">
             <img src={heroImg} 
-            alt="hero image" className="object-cover w-full h-full " />
+            alt="hero image" className="object-fill w-full h-full " />
         </div>
 
     </section>

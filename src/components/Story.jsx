@@ -6,7 +6,7 @@ import { story } from "../data";
 const Story = () => {
   return (
 <section className='mx-10 mt-30 mb-20'>
-    <div className='flex justify-between gap-7 p-5 '>
+    <div className='lg:flex justify-between gap-7 p-5 '>
         <div className=' w-100 text-[20px] text-gray-600'>
             {
               story.map((story)=> {
@@ -28,7 +28,7 @@ const Story = () => {
         </div>
 
         <div className='w-100 mt-15'> 
-          <div className=''></div>
+          <div className='border-3 border-secondary w-13'></div>
 <h1 className='text-black uppercase text-4xl font-extrabold font-chivo pt-5'>About Our <br /> Story</h1>
 <p className='text-gray-600 text-[20px] mt-10'>There are many variations of passages of <br /> Lorem Ipsum available be the majority <br />have suffered alteration in 
   some form, by <br /> injected humour or randomised words.

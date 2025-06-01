@@ -6,6 +6,8 @@ import Gallery from "./pages/Gallery";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import Layout from "./layouts/Layout";
+import BlogDetails from "./pages/BlogDetails";
+import Elements from "./pages/Elements";
 
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
     <Route path="/service" element={<Service />} />
     <Route path="/gallery" element={<Gallery />} />
     <Route path="/blog" element={<Blog />} />
+    <Route path="/blogdetails" element={<BlogDetails />} />
+    <Route path="/elements" element={<Elements />} />
     <Route path="/contact" element={<Contact />} />
     </Route>
 
