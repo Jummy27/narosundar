@@ -16,8 +16,10 @@ const Tprices = () => {
             <img src={barber5} alt="Barber5 Img" />
             <img src={barber6} alt="Barber6 Img" />
         </div>
-        <div className="lg:mx-20 mt-0 md: ml-5">
-            <div className="uppercase text-5xl text-primary font-bold py-5 border-b-1 mb-10">our top prices</div>
+        
+        <div className="lg:mx-20 lg:mt-3  md:mt-45 ml-5 ">
+          
+            <div className="uppercase text-4xl text-primary font-bold py-5 border-b-1 mb-10">our top prices</div>
             <div className="text-[20px]">
             <div className="flex border-b-1 pt-5 border-gray-300 pb-5 mb-3 font-chivo">
                 <h4 className="cursor-pointer">Special Beard Treatment</h4> 

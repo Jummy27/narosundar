@@ -23,7 +23,7 @@ import blogD4 from '../images/blogD/blogD4.webp';
 const Blog2 =() => {
   return (
  <section>
-     <div className='mx-15 my-25 flex '>
+     <div className='mx-15 my-25 lg:flex '>
                 
                 
                 <div className='w-2/3 mr-3'>
@@ -136,7 +136,7 @@ const Blog2 =() => {
                         
                         </div>
 
-                        <p className="my-13 text-gray-800 text-[20px]">Leave a Reply</p> 
+                        <p className="lg:my-13 text-gray-800 text-[20px] md:mt-80 md:mb-10">Leave a Reply</p> 
 
                          <div className="text-gray-400 text-[15px]">
                           <textarea name="" id="" className="border-1 border-gray-300 h-50 w-[800px] pl-5 pt-3 ">Write Comment</textarea>

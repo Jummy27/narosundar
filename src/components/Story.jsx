@@ -33,9 +33,9 @@ const Story = () => {
 <p className='text-gray-600 text-[20px] mt-10'>There are many variations of passages of <br /> Lorem Ipsum available be the majority <br />have suffered alteration in 
   some form, by <br /> injected humour or randomised words.
 </p>
-<button className='p-3  px-10 cursor-pointer text-[20px] text-secondary border-2 font-bold mt-7 hover:bg-secondary hover:text-white '>
+<a href="#"><button className='p-3  px-10 cursor-pointer text-[20px] text-secondary border-2 font-bold mt-7 hover:bg-secondary hover:text-white '>
   Book Now
-</button>
+</button></a>
         </div>
     </div>
 </section>

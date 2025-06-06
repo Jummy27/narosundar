@@ -19,17 +19,23 @@ const Gallery=() => {
                 </div>
                 </div>
 
-                <div className="uppercase text-primary text-center text-5xl font-bold mt-30 mb-10">gallery</div>
 
-                <div className="grid grid-cols-3 gap-7 h-200 mx-15 mb-30">
+                 <div className='border-3 border-secondary w-13 mt-25 lg:ml-160 md:ml-90 '></div>
+
+                <div className="uppercase text-primary text-center text-5xl font-bold mt-10 mb-10 md:text-center">gallery</div>
+
+                <div className="flex gap-6 lg:h-85 lg:w-100 mx-15 mb-8 md:w-50 md:h-45">
                   <img src={instra1} alt="Gallery Img1" />
                   <img src={instra2} alt="Gallery Img2" />
                   <img src={instra3} alt="Gallery Img3" />
-                  <img src={instra4} alt="Gallery Img4" />
-                  <img src={instra5} alt="Gallery Img5" />
-                  <img src={instra6} alt="Gallery Img6" />
+                  </div>
+                  <div className="flex gap-6 lg:h-85 mx-15 mb-40 md:w-50 md:h-45">
+                  <img src={instra4} alt="Gallery Img4" className="w-100" />
+                  <img src={instra5} alt="Gallery Img5" className="w-105" />
+                  <img src={instra6} alt="Gallery Img6"  className="w-100"/>
+                  </div>
 
-                </div>
+                
 
                 
     </section>

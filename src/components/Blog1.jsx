@@ -20,7 +20,7 @@ const blogs=()=> {
   return (
     <section>
           
-        <div className='mx-15 my-25 flex '>
+        <div className='mx-15 my-25 lg:flex '>
             
             
             <div className='w-2/3'>

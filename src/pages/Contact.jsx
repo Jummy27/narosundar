@@ -2,8 +2,20 @@ import Hero1 from "../images/hero/h1_hero1.jpg";
 import { PiHouseLineLight } from "react-icons/pi";
 import { HiMiniDevicePhoneMobile } from "react-icons/hi2";
 import { PiEnvelopeThin } from "react-icons/pi";
+import { useState } from "react";
 
 const Contact = () => {
+  const [formData, setFormData]=useState({
+    name: "",
+    email: "",
+  });
+
+  const handleChange = (e) => {
+    const {name, value} = e.target;
+    setFormData((prevData) => ({
+      ...prevData, [name]: value,
+    })
+    )}
   return (
     <section>
       <div className='flex grow mb-30'>
@@ -16,18 +28,22 @@ const Contact = () => {
                       </div>
 
                     <div className="ml-15 mb-30">
-                    <h1 className="text-primary text-3xl font-bold mb-10">Get in Touch</h1>
-                      <div className="flex">
-                        <div className="text-gray-400 text-[15px]">
-                          <textarea name="" id="" className="border-1 border-gray-300 h-50 w-[800px] pl-5 pt-3 ">Enter Message</textarea>
-                          <div className="flex gap-6 mt-6">
-                            <button className="border-1 border-gray-300 text-left pl-5 w-[390px] h-13">Enter your name</button>
-                            <button className="border-1 border-gray-300 text-left pl-5 w-[390px] h-13">Email</button>
+                    <div className="text-primary text-3xl font-bold mb-10">Get in Touch</div>
+                      <div className="lg:flex">
+                        <form className="text-gray-400 text-[15px]">
+                          <textarea name="" id="" className="border-1 border-gray-300 h-50 w-[800px] pl-5 pt-3 hover:border-gray-300 ">Enter Message</textarea>
+                          <div className="flex gap-2 mt-6">
+                            <label>Enter your name<input  type="text" name="name" value={formData.name} onChange={handleChange} className="border-1 border-gray-300  pl-5 w-[390px] h-13" /></label>
+                            <label> Email<input  type="email" name="email" value={formData.email} onChange={handleChange} className="border-1 border-gray-300 mr-40  pl-5 w-[390px] h-13" /></label>
+                           
                           </div>
-                          <button className="border-1 border-gray-300 text-left pl-5 w-[800px] h-13 mt-7">Enter Subject</button>
-                          <div><button className="text-secondary border-1 border-secondary h-16 cursor-pointer w-35 mt-12 uppercase hover:text-white hover:bg-secondary ">Send</button></div>
-                        </div>
-                        <div className="ml-30 flex gap-5">
+                          <div className="mt-7">
+                          <label className="">Enter Subject <br /><input  type="text" name="subject" value={formData.name} onChange={handleChange} className="border-1 border-gray-300 pl-5 w-[800px] h-13"/></label>
+                         </div>
+                         <div>
+                         <button className="text-secondary border-1 border-secondary h-16 cursor-pointer w-35 mt-12 uppercase hover:text-white hover:bg-secondary ">Send</button></div>
+                        </form>
+                        <div className="lg:mr-20 lg:mt-0 flex gap-5 md:mt-10">
                           <div className="">
                           {<PiHouseLineLight className="text-gray-400 w-8 h-10 mb-13"/>}
                           {<HiMiniDevicePhoneMobile className="text-gray-400 w-10 h-10 mb-14"/>}

@@ -8,10 +8,10 @@ const Customers = ({icon}) => {
   return (
     <section className="mb-40">
        <div className="mt-30 items-center">
-        <div className='border-3 border-secondary w-13 mt-10 ml-160 '></div>
+        <div className='border-3 border-secondary w-13 mt-10 lg:ml-160 md:ml-90'></div>
         <h1 className="text-4xl text-center uppercase font-extrabold text-primary mt-8 mb-15">customers say about us</h1>
        </div>
-        <div className="lg:grid-cols-3 ml-10 mr-15 md:grid">
+        <div className="lg:grid grid-cols-3 ml-10 mr-15 md:grid">
             <div className=" border-gray-200 border-1 p-10 pb-30">
             <div className="flex gap-2">
               <span>{icon}</span>

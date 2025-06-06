@@ -33,7 +33,7 @@ function Blog3 ()  {
 
        <div className="mb-20">
         <h1 className="text-[25px] text-black my-7 ">Text Sample</h1>
-        <p className="text-[19px] text-gray-500"> Every avid independent filmmaker has Bold about making that Italic interest documentary, or short film to show off their creative prowess. Many have great ideas and want to “wow” theSuperscript scene, or video renters with their big project. But once you have theSubscript “in the can” (no easy feat), how do you move from a Strike through of master DVDs with the “Underline” marked hand-written title inside a secondhand CD case, to a pile of cardboard boxes full of shiny new, retail-ready DVDs, with UPC barcodes and polywrap sitting on your doorstep? You need to create eye-popping artwork and have your project replicated. Using a reputable full service DVD Replication company like PacificDisc, Inc. to partner with is certainly a helpful option to ensure a professional end result, but to help with your DVD replication project, here are 4 easy steps to follow for good DVD replication results:</p>
+        <p className="lg:text-[19px] md:text-[15px] text-gray-500"> Every avid independent filmmaker has Bold about making that Italic interest documentary, or short film to show off their creative prowess. Many have great ideas and want to “wow” theSuperscript scene, or video renters with their big project. But once you have theSubscript “in the can” (no easy feat), how do you move from a Strike through of master DVDs with the “Underline” marked hand-written title inside a secondhand CD case, to a pile of cardboard boxes full of shiny new, retail-ready DVDs, with UPC barcodes and polywrap sitting on your doorstep? You need to create eye-popping artwork and have your project replicated. Using a reputable full service DVD Replication company like PacificDisc, Inc. to partner with is certainly a helpful option to ensure a professional end result, but to help with your DVD replication project, here are 4 easy steps to follow for good DVD replication results:</p>
        </div>
 
        <div className="py-10 border-y-1 border-y-gray-100">
@@ -138,16 +138,16 @@ function Blog3 ()  {
         <div className="pt-10 pb-20 border-b-1 border-b-gray-100">
          <h1 className="text-[30px] text-black my-7 ">Left Aligned</h1>
          <div className="flex gap-10 mt-5">
-          <img src={blogE1} alt="blogE1-image"/>
-          <p className='text-[18px] mt-2 text-gray-500'>Recently, the US Federal government banned online casinos from operating in America by making it illegal to transfer money to them through any US bank or payment system. As a result of this law, most of the popular online casino networks such as Party Gaming and PlayTech left the United States. Overnight, online casino players found themselves being chased by the Federal government. But, after a fortnight, the online casino industry came up with a solution and new online casinos started taking root. These began to operate under a different business umbrella, and by doing that, rendered the transfer of money to and from them legal. A major part of this was enlisting electronic banking systems that would accept this new clarification and start doing business with me. Listed in this article are the electronic banking systems that accept players from the United States that wish to play in online casinos.</p>
+          <img src={blogE1} alt="blogE1-image" className="md:h-20 w-30"/>
+          <p className='lg:text-[18px] md:[14px] mt-2 text-gray-500'>Recently, the US Federal government banned online casinos from operating in America by making it illegal to transfer money to them through any US bank or payment system. As a result of this law, most of the popular online casino networks such as Party Gaming and PlayTech left the United States. Overnight, online casino players found themselves being chased by the Federal government. But, after a fortnight, the online casino industry came up with a solution and new online casinos started taking root. These began to operate under a different business umbrella, and by doing that, rendered the transfer of money to and from them legal. A major part of this was enlisting electronic banking systems that would accept this new clarification and start doing business with me. Listed in this article are the electronic banking systems that accept players from the United States that wish to play in online casinos.</p>
          </div>
          </div>
 
           <div className="pt-10 pb-20 border-b-1 border-b-gray-100">
          <h1 className="text-[30px] text-black my-7 ">Right Aligned</h1>
          <div className="flex gap-10 mt-5">
-          <p className='text-[18px] mt-2 text-gray-500'>Recently, the US Federal government banned online casinos from operating in America by making it illegal to transfer money to them through any US bank or payment system. As a result of this law, most of the popular online casino networks such as Party Gaming and PlayTech left the United States. Overnight, online casino players found themselves being chased by the Federal government. But, after a fortnight, the online casino industry came up with a solution and new online casinos started taking root. These began to operate under a different business umbrella, and by doing that, rendered the transfer of money to and from them legal. A major part of this was enlisting electronic banking systems that would accept this new clarification and start doing business with me. Listed in this article are the electronic banking systems that accept players from the United States that wish to play in online casinos.</p>
-          <img src={blogE1} alt="blogE1-image"/>
+          <p className='lg:text-[18px] md:[14px] mt-2 text-gray-500'>Recently, the US Federal government banned online casinos from operating in America by making it illegal to transfer money to them through any US bank or payment system. As a result of this law, most of the popular online casino networks such as Party Gaming and PlayTech left the United States. Overnight, online casino players found themselves being chased by the Federal government. But, after a fortnight, the online casino industry came up with a solution and new online casinos started taking root. These began to operate under a different business umbrella, and by doing that, rendered the transfer of money to and from them legal. A major part of this was enlisting electronic banking systems that would accept this new clarification and start doing business with me. Listed in this article are the electronic banking systems that accept players from the United States that wish to play in online casinos.</p>
+          <img src={blogE1} alt="blogE1-image" className="md:h-20 w-30"/>
          </div>
          </div>
 
@@ -327,22 +327,22 @@ function Blog3 ()  {
           </div>
          </div>
 
-         <div className="flex justify-between pt-10 h-270">
-          <div className='text-[30px] text-black mt-7 w-2/3 '>
+         <div className="flex justify-between pt-10 h-270 lg:my-2 md:my-100">
+          <div className='text-[30px] text-black mt-7 lg:w-2/3 md:w-1/3'>
           <h1>Form Element</h1>
-          <div className='h-10 w-200 bg-gray-100 mt-10 mb-2 text-gray-500 text-[18px] pl-5 pt-2'>First Name</div>
-          <div className='h-10 w-200 bg-gray-100  mb-2 text-gray-500 text-[18px] pl-5 pt-2'>Last Name</div>
-          <div className='h-10 w-200 bg-gray-100  mb-2 text-gray-500 text-[18px] pl-5 pt-2'>Last Name</div>
-          <div className='h-10 w-200 bg-gray-100  mb-2 text-gray-500 text-[18px] pl-5 pt-2'>Email Address</div>
-          <div className='h-10 w-200 bg-gray-100  mb-2 text-gray-500 text-[18px] pl-10 pt-2'>Address</div>
-          <div className='border-1 border-gray-500 h-10 w-200 bg-white rounded-[4px] absolute'></div>
-          <div className='h-10 w-190 bg-gray-100   text-gray-500 text-[18px] ml-3 pt-2 pl-2 relative mt-4 flex gap-4'><FaPlane/>City</div>
-          <div className='border-1 border-gray-500 h-10 w-200 bg-white rounded-[4px] absolute mt-1'></div>
-          <div className='h-10 w-190 bg-gray-100   text-gray-500 text-[18px] pl-2 ml-3 pt-2 relative mt-4 flex gap-4'><FaGlobe/>Country</div>
-          <div className='h-30 w-200 bg-gray-100  mb-2 text-gray-500 text-[18px] pl-5 mt-1 pt-2'>Message</div>
-          <div className='h-10 w-200 bg-gray-100  mb-2 text-gray-500 text-[18px] pl-5 pt-2'>Primary Color</div>
-          <div className='h-10 w-200 bg-gray-100  mb-2 text-gray-500 text-[18px] pl-5 pt-2'>Accent Color</div>
-          <div className='h-10 w-200 bg-gray-100  mb-2 text-gray-500 text-[18px] pl-5 pt-2'>Secondary Color</div>
+          <div className='h-10 lg:w-200 md:w-100 bg-gray-100 mt-10 mb-2 text-gray-500 text-[18px] pl-5 pt-2'>First Name</div>
+          <div className='h-10 lg:w-200 md:w-100 bg-gray-100  mb-2 text-gray-500 text-[18px] pl-5 pt-2'>Last Name</div>
+          <div className='h-10 lg:w-200 md:w-100 bg-gray-100  mb-2 text-gray-500 text-[18px] pl-5 pt-2'>Last Name</div>
+          <div className='h-10 lg:w-200 md:w-100 bg-gray-100  mb-2 text-gray-500 text-[18px] pl-5 pt-2'>Email Address</div>
+          <div className='h-10 lg:w-200 md:w-100 bg-gray-100  mb-2 text-gray-500 text-[18px] pl-10 pt-2'>Address</div>
+          <div className='border-1 border-gray-500 h-10 lg:w-200 md:w-100 bg-white rounded-[4px] absolute'></div>
+          <div className='h-10 lg:w-190 md:w-95 bg-gray-100   text-gray-500 text-[18px] ml-3 pt-2 pl-2 relative mt-4 flex gap-4'><FaPlane/>City</div>
+          <div className='border-1 border-gray-500 h-10 lg:w-200 md:w-100 bg-white rounded-[4px] absolute mt-1'></div>
+          <div className='h-10 lg:w-190 md:w-95 bg-gray-100   text-gray-500 text-[18px] pl-2 ml-3 pt-2 relative mt-4 flex gap-4'><FaGlobe/>Country</div>
+          <div className='h-30 lg:w-200 md:w-100 bg-gray-100  mb-2 text-gray-500 text-[18px] pl-5 mt-1 pt-2'>Message</div>
+          <div className='h-10 lg:w-200 md:w-100 bg-gray-100  mb-2 text-gray-500 text-[18px] pl-5 pt-2'>Primary Color</div>
+          <div className='h-10 lg:w-200 md:w-100 bg-gray-100  mb-2 text-gray-500 text-[18px] pl-5 pt-2'>Accent Color</div>
+          <div className='h-10 lg:w-200 md:w-100 bg-gray-100  mb-2 text-gray-500 text-[18px] pl-5 pt-2'>Secondary Color</div>
           </div>
           <div className='text-[30px] text-black mt-7 w-1/3 ml-5'>
           <h1>Switches</h1>

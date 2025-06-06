@@ -6,7 +6,7 @@ const Services = () => {
         <div className="lg:flex justify-between">
             <div className="">
               <div className='border-3 border-secondary w-13 mb-10'></div>
-                <h1 className="text-5xl uppercase font-bold">All we do for you </h1>
+                <h1 className="text-4xl uppercase font-bold">All we do for you </h1>
                 <div className="border-2 text-white font-bold text-2xl mt-10 cursor-pointer border-secondary bg-secondary pl-8 pr-110 py-5 my-5">For Hair</div>
                 
                 <section className="text-[20px]">
