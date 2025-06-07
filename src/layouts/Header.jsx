@@ -16,7 +16,7 @@ function Header() {
  
 
   return (
-    <header className="sticky top-0 bg-primary flex h-[70px]">
+    <header className="sticky top-0 bg-primary flex h-[70px] z-20">
       <div className="flex grow justify-between items-center mr-4 px-8">
         <Link to="/">
         <img src={logo} alt="Narosundar" className="logo"/>
